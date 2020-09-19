@@ -44,3 +44,11 @@ footer {
     background-color: #000;
     color: #F2FFFC;
 }
+
+ul{
+    color: pink;
+}
+
+ul li a{
+    color: inherit;
+}
