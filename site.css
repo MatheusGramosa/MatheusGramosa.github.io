@@ -11,33 +11,48 @@ body {
     font-family: "Crimson Text", "Times New Roman",serif;
     background-color:#F2FFFC;
     font-size:120%;
+    line-height: 1.5;
 }
 
-main h1{
+main h1, h1{
     text-align: center;
     background-color:#851944;
     color:#FFF;
+    padding: 25px;
+    border-bottom 10px solid black;
+    font-size: 60px;
 }
 
 main a {
     color: #851944
 }
 
-h1,h2 {
+h1,h2,h3 {
     font-family:"Open Sans Condensed","Arial",sans-serif;
+    font-size: 30px;
 }
 
 p{
     text-align:justify;
+    margin: 20px 0;
 }
 
 blockquote {
     background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px 40px;
+    border: 10px solid #C2CCCA;
+    border-bottom-color: #333;
+    border-right-color: #FFF;  
 }
 
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    margin-bottom: 25px;
+
 }
 
 footer {
@@ -51,4 +66,25 @@ ul{
 
 ul li a{
     color: inherit;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+main {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+
+h3{
+    padding: 10px
 }
