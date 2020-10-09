@@ -23,6 +23,28 @@ main h1, h1{
     font-size: 60px;
 }
 
+main{
+    text-align: center;
+    width: 100%;
+    width: 750px;
+    margin: auto;
+    padding: 30px 0;
+    float: left;
+    margin-left: 380px;
+    
+    
+}
+
+.titulo-principal {
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    border-bottom: 10px solid black;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
 main a {
     color: #851944
 }
@@ -48,11 +70,53 @@ blockquote {
     border-right-color: #FFF;  
 }
 
+.direita {
+    float: right;
+}
+
+.esquerda {
+    float: left;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+
+}
+
+h2 {
+    font-size: 30px;
+    clear: both;
+}
+
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
     margin-bottom: 25px;
+    text-align: center;
+}
 
+.icones-redes-sociais{
+    display: inline-flex;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+    background-image: url(twitter.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
 }
 
 footer {
@@ -72,12 +136,6 @@ blockquote, aside, footer {
     padding: 20px;
 }
 
-main {
-    width: 720px;
-    margin: auto;
-    padding: 30px 0;
-}
-
 strong {
     font-weight: bold;
 }
@@ -87,4 +145,35 @@ em {
 
 h3{
     padding: 10px
+}
+
+nav a{
+    text-transform: lowercase;
+}
+.minha-foto, .navegacao-site {
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navegacao-site {
+    width: 15%;
+    position: relative;
+    top: 190px;
+}   
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
